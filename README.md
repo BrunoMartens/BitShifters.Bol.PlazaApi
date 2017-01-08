@@ -32,7 +32,7 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-Now PlazaApiClientis available through DI
+Now PlazaApiClient is available through DI
 
 HomeController.cs
 
