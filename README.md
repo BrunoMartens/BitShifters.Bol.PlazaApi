@@ -3,7 +3,7 @@
 BOL.com Plaza Api implemented as a .NET Standard Library usable in .NET Core 
 ## Nuget
 ```
-PM> Install-Package BitShifters.Bol.PlazaAPi
+PM> Install-Package BitShifters.Bol.PlazaApi
 ```
 ## Usage
 Startup.cs
