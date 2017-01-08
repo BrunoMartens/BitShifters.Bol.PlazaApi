@@ -56,3 +56,31 @@ public class HomeController : Controller
 
 }
 ```
+
+## Available Methods
+
+### OrderRepository
+```
+GetOrdersAsync()
+CancelOrderItemAsync(int orderItemId, Cancellation cancellation)
+```
+### ProcessStatusRepository
+```
+GetProcessStatusAsync(int processStatusId)
+```
+### ReturnItemRepository
+```
+GetReturnItemsAsync()
+UpdateReturnItemStatusAsync(int returnNumber, ReturnItemStatusUpdate returnItemStatusUpdate)
+```
+### ShipmentRepository
+```
+GetShipmentsAsync(int page=1)
+GetShipmentsByFulfilmentMethodAsync(FulfilmentMethod fulfilmentMethod, int page = 1)
+CreateShipmentAsync(ShipmentRequest shipmentRequest)
+ChangeTransportAsync(int transportId, ChangeTransportRequest changeTransportRequest)
+```
+### ShippingLabelRepository
+```
+GetShippingLabelsAsync(int orderItemId)
+```
